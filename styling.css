@@ -1,0 +1,94 @@
+
+
+    .header_list li{
+        /* to display list items beside each other */
+       display: inline-block;
+       margin-right: 100px;
+       /* align lists to middle of its parent(ul) */
+       vertical-align:middle;
+    }
+    input{
+        border-radius:15px;
+        /* to mahe solid line border */
+        border: 2px solid gainsboro;
+        padding:10px;
+        
+    }
+    figure {
+    /* to remove margins */
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* to modify font of figcaption */
+    font-size: smaller;
+    }
+    .nav_footer_list li{
+        display:inline-block;
+        margin-right:30px;
+        margin-bottom:20px ;
+    }
+    
+    #search_results{
+        /* 2.5 means 2.5 times the size of the font */
+        margin-left:2.5em; 
+        color: rgb(165, 160, 160);
+    } 
+    article{
+        margin-top:1em;
+        margin-left:2em;
+        margin-bottom:2em;
+    }
+    .aside_list{
+        /* make the whole list as a block which is inline  */
+        display:inline-block;
+        margin-right:20px;
+        /* remove bullets */
+        list-style-type: none; 
+    }
+    #google_image{
+        margin-left:30px;
+    }
+
+    .pages_list li{
+        display:inline-block;
+    } 
+
+    .nav_footer_links {
+        font-size:medium;
+        color: gray;
+        /* remove underlines */
+        text-decoration: none;
+    }
+    .article_links {
+        font-size: 25px;
+        font-weight: normal;
+        color: rgb(9, 9, 156);
+        text-decoration: none;
+    }
+    .aside_links {
+        font-size:small;
+        color: royalblue;
+        text-decoration: none;
+    }
+    .page_links {
+        font-size:medium;
+        color:royalblue;
+        text-decoration: none;
+    }
+
+    /* make underlines appears when moving mouse on it */
+    a:hover{
+        text-decoration:underline;
+    }
+    #prev_link{
+        margin-right: 30px;
+    }
+    #next_link{
+        margin-left: 30px;
+    }
+    #bullet{
+        color: rgb(15, 18, 199);
+        font-size:20px;
+    }
+
